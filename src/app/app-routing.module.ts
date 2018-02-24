@@ -7,11 +7,11 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
-    path: '',
-    loadChildren: './events/events.module#EventModule'
+    path: 'events',
+    loadChildren: './events/events.module#EventsModule'
   },
   {
-    path: '',
+    path: 'videos',
     loadChildren: './videos/videos.module#VideosModule'
   }
 ];
