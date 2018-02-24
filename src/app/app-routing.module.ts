@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    loadChildren: './home/home.module#HomeModule'
+  },
+  {
+    path: '',
+    loadChildren: './events/events.module#EventModule'
+  },
+  {
+    path: '',
+    loadChildren: './videos/videos.module#VideosModule'
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
