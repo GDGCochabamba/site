@@ -1,3 +1,19 @@
+# GDG Cochabamba site
+
+Hey!
+Este proyecto nace con el objetivo de poder utilizar las tecnologias que nos gustan dentro de nuestra pagina oficial [http://www.gdg.com.bo/](http://www.gdg.com.bo/).
+
+## ¿Tienes algo que reportar? 
+Si tienes alguna sugerencia o algo extraño que encontraste, no olvides que puedes abrir un `Issue`, lo puedes encontrar arriba, al lado de la pestaña `Code`.
+
+## Viste algo que mejorar y no entiendes ¿Por que aun no se hizo el cambio? o tienes en mente el ¿Como podria contribuir?
+Puedes mandar tu PR con lo que veas que pueda ser cool de agregar pero si estas dentro del equipo que esta manteniendo el proyecto, no olvides visitar la guia de contribución.
+
+## Aclaraciones
+Se tratara de actualizar este proyecto lo mas seguido posible :) y si no encuentras algo por aqui, es probable que lo encuentres en la guia de contribución pero sino, deja un `issue` and blame us! 😱
+
+
+# Información del README original de Angular
 # Site
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
