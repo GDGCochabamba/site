@@ -5,7 +5,7 @@ Por ahora, tratamos de no incluir información sensible dentro del proyecto, com
 
 Recuerda que para dev y prod se usan dos archivos distintos: `environment.ts` y `environment.prod.ts`. 
 
-Aqui te dejamos el codigo base para ellos:
+Aquí te dejamos el código base para ellos:
 ```
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
@@ -25,16 +25,16 @@ export const environment = {
 ```
 
 ## ¿Como hacer un commit?
-Lo unico que se pide por ahora es que se haga en ingles y en presente simple, algunos ejemplos:
+Lo único que se pide por ahora es que se haga en inglés y en presente simple, algunos ejemplos:
 ```
 Add new icon
 Create another module
 Update copy
 ```
 
-## ¿Por qué los commits en ingles y esto esta en español? 😱
-Existen muchas reglas variadas pero el usar commits es dejar parte de tu trabajo y nosotros incentivamos mucho el uso de ingles a nivel profesional, sin embargo, este tipo de archivo al igual que el `README.md` es para comunicarnos y lo preferimos hacerlo por ahora en español.
+## ¿Por qué los commits en inglés y esto está en español? 😱
+Existen muchas reglas variadas pero el usar commits es dejar parte de tu trabajo y nosotros incentivamos mucho el uso de inglés a nivel profesional, sin embargo, este tipo de archivo al igual que el `README.md` es para comunicarnos y preferimos hacerlo por ahora en español.
 
-## 😒 Aquí falta información y mas cosas
-Es probable, pero lo iremos actualizando lo mas seguido que podamos 
+## 😒 Aquí falta información y más cosas
+Es probable, pero lo iremos actualizando lo más seguido que podamos  
 
