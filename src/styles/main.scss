@@ -1,0 +1,86 @@
+@import 'base/_all.scss';
+
+@import 'components/_all.scss';
+
+@import 'pages/_all.scss';
+
+@media only screen and (min-width: 35em) {
+  .events {
+    &__content {
+      margin: 0 auto;
+      max-width: 50em;
+    }
+    &__principal {
+      .card__image {
+        max-height: 18rem;
+      }
+    }
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__list-item {
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  }
+}
+@media only screen and (min-width: 45em) {
+  body {
+    padding-top: 70px;
+  }
+  .page__header {
+    bottom: auto;
+    top: 0;
+  }
+  .desktop {
+    display: block;
+  }
+  .section {
+    &__content {
+      margin: 0 auto;
+      max-width: 50em;
+    }
+  }
+  .events {
+    &__principal {
+      .card__image {
+        max-height: 26rem;
+      }
+    }
+    &__list-item {
+      max-width: 48%;
+    }
+    .section__content {
+      max-width: 35em;
+    }
+  }
+  .videos {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 70%;
+    }
+    &__list-item {
+      width: 48%;
+    }
+  }
+}
+@media only screen and (min-width: 75em) {
+  .city {
+    &__buildings {
+      width: 50%;
+    }
+  }
+  .about-us {
+    &__card {
+      position: absolute;
+      right: 3em;
+      top: 30%;
+      max-width: 29em;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.about-us {
+  background-color: $_sky-blue;
+  background-image: url('/assets/images/clouds.svg');
+  background-size: 100%;
+  position: relative;
+  &__card {
+    margin: 0 auto;
+    max-width: 25rem;
+  }
+  &__logo {
+    padding: 4em 0;
+    img {
+      height: 300px;
+    }
+  }
+}
+.about-what {
+  background-color: $_black-regular;
+  text-align: center;
+  &__video {
+    display: table;
+    margin: 3rem auto;
+  }
+  &__icon {
+    text-align: center;
+  }
+  &__icon-content {
+    margin: 1rem auto .5rem;
+    width: 68px;
+  }
+}
+
+.about-do {
+  background-color: $_green-regular;
+  &__card {
+    margin: 3rem auto;
+    max-width: 25rem;
+  }
+  &__eventos {
+    margin: 3rem auto 0;
+    display: table;
+    text-align: center;
+    .icon-calendar {
+      color: white;
+      display: block;
+      font-size: 3rem;
+      margin: .2em 0;
+    }
+  }
+}
+
+.vision {
+  background-color: $_black-dark;
+  text-align: center;
+  &__social {
+    margin-top: 2em;
+  }
+}

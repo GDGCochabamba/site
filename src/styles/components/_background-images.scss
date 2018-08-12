@@ -1,0 +1,33 @@
+.hills,
+.building {
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  min-height: 16em;
+}
+.hills {
+  background-image: url("/assets/images/hill.svg");
+}
+.building {
+  background-image: url("/assets/images/building.svg");
+}
+
+.city {
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  &__buildings {
+    font-size: 0;
+    margin: 0 auto -2px;
+    min-width: 300px;
+    width: 90%;
+  }
+  &__path {
+    background-image: url("/assets/images/linea.svg");
+    background-repeat: repeat-x;
+    background-size: auto;
+    height: 1em;
+    position: relative;
+    width: 100%;
+  }
+}
