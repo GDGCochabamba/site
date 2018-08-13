@@ -1,0 +1,15 @@
+<div class="card">
+  <figure class="card__image">
+    <img [src]="image"/>
+  </figure>
+  <div class="card__description" [ngClass]="[classDescription]" > 
+    <span class="icon-calendar"></span>
+    <div class="card__data">
+      <h3 class="card__title">{{ title }}</h3>
+      <h4 class="card__date">{{ date }}</h4>
+    </div>
+    <a class="card__button" [href]="url" target="_blank">
+      <span class="icon-list"></span>
+    </a>
+  </div>
+</div>

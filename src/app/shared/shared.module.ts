@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { VideoComponent } from './video/video.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    VideoComponent
+    VideoComponent,
+    CardComponent
   ],
   exports: [
-    VideoComponent
+    VideoComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
