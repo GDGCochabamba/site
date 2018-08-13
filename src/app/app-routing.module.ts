@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
-    path: 'events',
+    path: 'eventos',
     loadChildren: './events/events.module#EventsModule'
   },
   {
