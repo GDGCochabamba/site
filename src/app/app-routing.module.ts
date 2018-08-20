@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'videos',
     loadChildren: './videos/videos.module#VideosModule'
+  },
+  {
+    path: 'miembros',
+    loadChildren: './members/members.module#MembersModule'
   }
 ];
 

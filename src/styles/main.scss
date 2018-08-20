@@ -68,6 +68,18 @@
       width: 48%;
     }
   }
+  .members {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 70%;
+    }
+    &__list-item {
+      width: 48%;
+    }
+  }
 }
 @media only screen and (min-width: 75em) {
   .city {
