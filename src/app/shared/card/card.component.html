@@ -3,13 +3,14 @@
     <img [src]="image"/>
   </figure>
   <div class="card__description" [ngClass]="[classDescription]" > 
-    <span class="icon-calendar"></span>
     <div class="card__data">
       <h3 class="card__title">{{ title }}</h3>
-      <h4 class="card__date">{{ date }}</h4>
+      <h4 class="card__date">
+        <i class="far fa-calendar-alt"></i> {{ date }}
+      </h4>
     </div>
     <a class="card__button" [href]="url" target="_blank">
-      <span class="icon-list"></span>
+      <i class="fas fa-external-link-square-alt"></i>
     </a>
   </div>
 </div>
