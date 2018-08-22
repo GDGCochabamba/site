@@ -7,7 +7,6 @@
     </article>
 
     <section class="members__list">
-      <div class="members__list-item">
         <!-- Icon codes from fontawesome.com -->
         <!-- Valid orgTeams: 'Coordinación con speakers'
                              'Diseño y redes sociales'
@@ -16,9 +15,10 @@
                              'Logística - sponsorship'
                              'Logística de ubicaciones'
                              'Swag'
-                             'Ventas'
+                             'Marketing y ventas'
                              'Web'
         -->
+      <div class="members__list-item">
         <app-member-card
           image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
           fullname="John Doe"
@@ -32,8 +32,63 @@
           }]">
         </app-member-card>
       </div>
+      <div class="members__list-item">
+        <app-member-card
+          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          fullname="John Doe 2"
+          [orgTeams]="['Producción audiovisual', 'Comunicación']"
+          [socialLinks]="[{
+            url:'https://plus.google.com',
+            icon:'fab fa-google-plus'
+          }, {
+            url:'https://www.linkedin.com',
+            icon:'fab fa-linkedin'
+          }]">
+        </app-member-card>
+      </div>
+      <div class="members__list-item">
+        <app-member-card
+          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          fullname="John Doe 3"
+          [orgTeams]="['Logística - sponsorship', 'Logística de ubicaciones']"
+          [socialLinks]="[{
+            url:'https://github.com',
+            icon:'fab fa-github'
+          }, {
+            url:'https://www.meetup.com',
+            icon:'fab fa-meetup'
+          }]">
+        </app-member-card>
+      </div>
+      <div class="members__list-item">
+        <app-member-card
+          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          fullname="John Doe 4"
+          [orgTeams]="['Swag']"
+          [socialLinks]="[{
+            url:'https://www.facebook.com',
+            icon:'fab fa-facebook-square'
+          }, {
+            url:'https://www.twitter.com',
+            icon:'fab fa-twitter'
+          }]">
+        </app-member-card>
+      </div>
+      <div class="members__list-item">
+        <app-member-card
+          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          fullname="John Doe 5"
+          [orgTeams]="['Marketing y ventas', 'Web']"
+          [socialLinks]="[{
+            url:'https://plus.google.com',
+            icon:'fab fa-google-plus'
+          }, {
+            url:'https://www.linkedin.com',
+            icon:'fab fa-linkedin'
+          }]">
+        </app-member-card>
+      </div>
     </section>
   </div>
   <div class="hills"></div>
 </section>
-  

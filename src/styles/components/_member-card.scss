@@ -17,7 +17,7 @@
     height: 96px;
     overflow: hidden;
     border-radius: 50%;
-    box-shadow: 3px 3px 15px 0px $_black-regular;
+    border: 5px solid $_blue;
   }
   &__fullname {
     text-transform: initial;

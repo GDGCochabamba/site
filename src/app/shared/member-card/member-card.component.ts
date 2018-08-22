@@ -49,9 +49,9 @@ export class MemberCardComponent implements OnInit {
         color = 'lightskyblue';
         break;
       case 'Swag':
-        color = 'yellow';
+        color = 'gold';
         break;
-      case 'Ventas':
+      case 'Marketing y ventas':
         color = 'pink';
         break;
       case 'Web':
