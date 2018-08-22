@@ -8,12 +8,29 @@
 
     <section class="members__list">
       <div class="members__list-item">
-        <!-- <app-event-card
-          title="International Women's Day"
-          date="12 de Marzo del 2016"
-          image="https://lh3.googleusercontent.com/JKD1IzCYQWYRmuZUtpQtN63AL-AJ5x998xAzotX8-Tw6CLkxC8szUcN-MzHo8XqXvvtd=w1920-h1080-rw-no"
-          url="https://plus.google.com/u/0/collection/c5P8PB">
-        </app-event-card> -->
+        <!-- Icon codes from fontawesome.com -->
+        <!-- Valid orgTeams: 'Coordinación con speakers'
+                             'Diseño y redes sociales'
+                             'Producción audiovisual'
+                             'Comunicación'
+                             'Logística - sponsorship'
+                             'Logística de ubicaciones'
+                             'Swag'
+                             'Ventas'
+                             'Web'
+        -->
+        <app-member-card
+          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+          fullname="John Doe"
+          [orgTeams]="['Coordinación con speakers', 'Diseño y redes sociales']"
+          [socialLinks]="[{
+            url:'https://www.facebook.com',
+            icon:'fab fa-facebook-square'
+          }, {
+            url:'https://www.twitter.com',
+            icon:'fab fa-twitter'
+          }]">
+        </app-member-card>
       </div>
     </section>
   </div>
