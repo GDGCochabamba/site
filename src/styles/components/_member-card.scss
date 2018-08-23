@@ -1,0 +1,67 @@
+.member-card {
+  background-color: white;
+  box-shadow: 2px 2px 15px 0px $_black-regular;
+  margin: 2em 0;
+  padding: 16px 0;
+  max-width: 250px;
+  text-align: center;
+
+  h3, h4 {
+    margin: 0;
+    color: $_black-dark;
+    padding: 7px;
+  }
+  &__image {
+    object-fit: cover;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid $_blue;
+  }
+  &__fullname {
+    text-transform: initial;
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  &__org-teams {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 0.8em;
+  }
+  &__button {
+    margin-right: 0.5em;
+    font-size: 1.2rem;
+    height: 30px;
+    width: 30px;
+    i {
+      color: $_green-dark;
+      line-height: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .member-card {
+    padding: 32px 0;
+  }
+}
+
+@media (min-width: 812px) {
+  .member-card {
+    &__image {
+      width: 115px;
+      height: 115px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .member-card {
+    &__image {
+      object-fit: cover;
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
