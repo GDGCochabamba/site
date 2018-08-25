@@ -23,11 +23,8 @@
         Grupo conformado por estudiantes y profesionales dedicados al diseño, desarrollo y experimentación con productos de Google.
       </p>
     </article>
-    <div class="about-what__video">
-      <app-video
-        image="https://lh3.googleusercontent.com/-0lYd46nk8KQ/VWsI7zAsCsI/AAAAAAAADFc/cLgfs0qQhdU/w506-h750/DSC_0544.JPG"
-        url="https://www.youtube.com/watch?v=ZjoLR3ngvmo"
-        ></app-video>
+    <div class="about-what__video" *ngIf="randomVideo | async; let videos">
+      <app-video [video]="videos[0]"></app-video>
     </div>
     <div class="about-what__icon">
       <a href="/videos" class="section__link">
