@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { GDGEvent } from '../../core/shared/event.model';
+import { GDGEvent } from '../../core/shared/services/events/event.model';
 
 
 @Component({
@@ -11,21 +11,6 @@ export class EventCardComponent implements OnInit {
 
   @Input()
   event: GDGEvent;
-
-  @Input()
-  image = '';
-
-  @Input()
-  title = '';
-
-  @Input()
-  date = '';
-
-  @Input()
-  url = '';
-
-  @Input()
-  classDescription = '';
 
   constructor() {
   }

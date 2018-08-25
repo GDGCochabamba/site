@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EventsService } from '../shared/events.service';
+import { EventsService } from '../../core/shared/services/events/events.service';
 
 @Component({
   selector: 'app-event-list',

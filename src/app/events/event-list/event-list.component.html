@@ -26,7 +26,7 @@
     </article>
     <section class="events__content">
       <div class="events__principal" *ngIf="mainEvent | async; let events">
-          <app-event-card [event]="events[0]"></app-event-card>
+        <app-event-card [event]="events[0]"></app-event-card>
       </div>
       <h3 class="events__past">eventos pasados</h3>
       <section class="events__list">

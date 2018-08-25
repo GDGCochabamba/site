@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore';
-import { GDGEvent } from '../../core/shared/event.model';
+import { GDGEvent } from './event.model';
 import { Observable, BehaviorSubject, combineLatest, Subject } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 

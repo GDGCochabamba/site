@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EventsService } from '../../core/shared/services/events/events.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  mainEvent;
+  randomEvent;
+
+  constructor(
+    private eventsService: EventsService
+  ) {
+    this.randomEvent = this.eventsService.getRow({ main: false });
+    this.mainEvent = this.eventsService.getRow({ main: true });
+  }
 
   ngOnInit() {
   }
