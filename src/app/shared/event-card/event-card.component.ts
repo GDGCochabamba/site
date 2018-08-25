@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { GDGEvent } from '../../core/shared/services/events/event.model';
+
 
 @Component({
   selector: 'app-event-card',
@@ -8,21 +10,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class EventCardComponent implements OnInit {
 
   @Input()
-  image = '';
+  event: GDGEvent;
 
-  @Input()
-  title = '';
-
-  @Input()
-  date = '';
-
-  @Input()
-  url = '';
-
-  @Input()
-  classDescription = '';
-
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

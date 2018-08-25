@@ -12,7 +12,11 @@ Aquí te dejamos el código base para ellos:
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false // this will be true when u need it for production
+  production: false, // this will be true when u need it for production
+  firebase: {
+    // u will be add here the firebase project configuration for web
+    // talk with @@TheFrankemon or @juliosguz to get it
+  }
 };
 
 /*
