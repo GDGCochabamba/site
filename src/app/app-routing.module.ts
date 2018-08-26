@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
-    path: 'eventos',
+    path: 'events',
     loadChildren: './events/events.module#EventsModule'
   },
   {
@@ -15,7 +15,7 @@ const routes: Routes = [
     loadChildren: './videos/videos.module#VideosModule'
   },
   {
-    path: 'miembros',
+    path: 'members',
     loadChildren: './members/members.module#MembersModule'
   }
 ];
