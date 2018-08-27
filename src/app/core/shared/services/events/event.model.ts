@@ -1,6 +1,7 @@
 export class GDGEvent {
   title: string;
-  date: string;
+  date: Date;
+  dateReadable: string;
   image: string;
   url: string;
 }
