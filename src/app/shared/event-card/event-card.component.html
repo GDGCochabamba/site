@@ -1,0 +1,19 @@
+<div class="event-card">
+  <figure class="event-card__image">
+    <img [src]="event.image"/>
+  </figure>
+  <div
+    class="event-card__description"
+  >
+  <!-- [ngClass]="[classDescription]"  -->
+    <div class="event-card__data">
+      <h3 class="event-card__title">{{ event.title }}</h3>
+      <h4 class="event-card__date">
+        <i class="far fa-calendar-alt"></i> {{ event.dateReadable }}
+      </h4>
+    </div>
+    <a class="event-card__button" [href]="event.url" target="_blank">
+      <i class="fas fa-external-link-square-alt"></i>
+    </a>
+  </div>
+</div>

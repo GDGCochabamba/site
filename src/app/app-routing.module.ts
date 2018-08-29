@@ -7,12 +7,16 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
-    path: 'eventos',
+    path: 'events',
     loadChildren: './events/events.module#EventsModule'
   },
   {
     path: 'videos',
     loadChildren: './videos/videos.module#VideosModule'
+  },
+  {
+    path: 'members',
+    loadChildren: './members/members.module#MembersModule'
   }
 ];
 

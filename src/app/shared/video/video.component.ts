@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { GDGVideo } from '../../core/shared/services/videos/video.model';
 
 @Component({
   selector: 'app-video',
@@ -8,10 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class VideoComponent implements OnInit {
 
   @Input()
-  url = '';
-
-  @Input()
-  image = '';
+  video: GDGVideo;
 
   constructor() { }
 

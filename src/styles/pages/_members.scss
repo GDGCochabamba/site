@@ -1,0 +1,23 @@
+.members {
+  background-color: $_blue;
+  &__container {
+    // display: table;
+    // margin: 3rem auto;
+    // .member-card {
+    //   margin-bottom: 1rem;
+    // }
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+    margin-bottom: 32px;
+  }
+    
+  &__hill {
+    margin-top: 5rem;
+    font-size: 0;
+  }
+  .hills {
+    margin-top: 5rem;
+  }
+}

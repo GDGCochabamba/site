@@ -11,7 +11,7 @@
       max-width: 50em;
     }
     &__principal {
-      .card__image {
+      .event-card__image {
         max-height: 18rem;
       }
     }
@@ -45,7 +45,7 @@
   }
   .events {
     &__principal {
-      .card__image {
+      .event-card__image {
         max-height: 26rem;
       }
     }
@@ -68,6 +68,18 @@
       width: 48%;
     }
   }
+  .members {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 70%;
+    }
+    &__list-item {
+      width: 30%;
+    }
+  }
 }
 @media only screen and (min-width: 75em) {
   .city {
@@ -76,7 +88,7 @@
     }
   }
   .about-us {
-    &__card {
+    &__event-card {
       position: absolute;
       right: 3em;
       top: 30%;
