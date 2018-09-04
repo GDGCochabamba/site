@@ -1,10 +1,10 @@
 <div class="member-card">
-  <img class="member-card__image" [src]="image"/>
-  <h3 class="member-card__fullname">{{ fullname }}</h3>
-  <h4 class="member-card__org-teams" *ngFor="let orgTeam of orgTeams">
+  <img class="member-card__image" [src]="member.image"/>
+  <h3 class="member-card__fullname">{{ member.fullname }}</h3>
+  <h4 class="member-card__org-teams" *ngFor="let orgTeam of member.orgTeams">
       <i class="fas fa-circle" [ngStyle]="{'color': getColor(orgTeam)}"></i> {{ orgTeam }}
   </h4>
-  <ng-container class="member-card__social" *ngFor="let socialLink of socialLinks">
+  <ng-container class="member-card__social" *ngFor="let socialLink of member.socialLinks">
     <a class="member-card__button" [href]="socialLink.url" target="_blank">
       <i [ngClass]="socialLink.icon"></i>
     </a>

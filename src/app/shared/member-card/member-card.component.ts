@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { GDGMember } from '../../core/shared/services/members/member.model';
 
 @Component({
   selector: 'app-member-card',
@@ -8,19 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MemberCardComponent implements OnInit {
 
   @Input()
-  image = '';
-
-  @Input()
-  fullname = '';
-
-  @Input()
-  orgTeams: any[];
-
-  @Input()
-  socialLinks: [{
-    url: '',
-    icon: ''
-  }];
+  member: GDGMember;
 
   constructor() { }
 

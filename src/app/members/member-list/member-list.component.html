@@ -7,86 +7,27 @@
     </article>
 
     <section class="members__list">
-        <!-- Icon codes from fontawesome.com -->
-        <!-- Valid orgTeams: 'Coordinación con speakers'
-                             'Diseño y redes sociales'
-                             'Producción audiovisual'
-                             'Comunicación'
-                             'Logística - sponsorship'
-                             'Logística de ubicaciones'
-                             'Swag'
-                             'Marketing y ventas'
-                             'Web'
+        <!-- Icon codes from fontawesome.com
+          'fab fa-facebook-square'
+          'fab fa-twitter'
+          'fab fa-google-plus'
+          'fab fa-linkedin'
+          'fab fa-github'
+          'fab fa-meetup'
         -->
-      <div class="members__list-item">
-        <app-member-card
-          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          fullname="John Doe"
-          [orgTeams]="['Coordinación con speakers', 'Diseño y redes sociales']"
-          [socialLinks]="[{
-            url:'https://www.facebook.com',
-            icon:'fab fa-facebook-square'
-          }, {
-            url:'https://www.twitter.com',
-            icon:'fab fa-twitter'
-          }]">
-        </app-member-card>
-      </div>
-      <div class="members__list-item">
-        <app-member-card
-          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          fullname="John Doe 2"
-          [orgTeams]="['Producción audiovisual', 'Comunicación']"
-          [socialLinks]="[{
-            url:'https://plus.google.com',
-            icon:'fab fa-google-plus'
-          }, {
-            url:'https://www.linkedin.com',
-            icon:'fab fa-linkedin'
-          }]">
-        </app-member-card>
-      </div>
-      <div class="members__list-item">
-        <app-member-card
-          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          fullname="John Doe 3"
-          [orgTeams]="['Logística - sponsorship', 'Logística de ubicaciones']"
-          [socialLinks]="[{
-            url:'https://github.com',
-            icon:'fab fa-github'
-          }, {
-            url:'https://www.meetup.com',
-            icon:'fab fa-meetup'
-          }]">
-        </app-member-card>
-      </div>
-      <div class="members__list-item">
-        <app-member-card
-          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          fullname="John Doe 4"
-          [orgTeams]="['Swag']"
-          [socialLinks]="[{
-            url:'https://www.facebook.com',
-            icon:'fab fa-facebook-square'
-          }, {
-            url:'https://www.twitter.com',
-            icon:'fab fa-twitter'
-          }]">
-        </app-member-card>
-      </div>
-      <div class="members__list-item">
-        <app-member-card
-          image="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          fullname="John Doe 5"
-          [orgTeams]="['Marketing y ventas', 'Web']"
-          [socialLinks]="[{
-            url:'https://plus.google.com',
-            icon:'fab fa-google-plus'
-          }, {
-            url:'https://www.linkedin.com',
-            icon:'fab fa-linkedin'
-          }]">
-        </app-member-card>
+        <!-- Valid orgTeams:
+          'Coordinación con speakers'
+          'Diseño y redes sociales'
+          'Producción audiovisual'
+          'Comunicación'
+          'Logística - sponsorship'
+          'Logística de ubicaciones'
+          'Swag'
+          'Marketing y ventas'
+          'Web'
+        -->
+      <div *ngFor="let member of members | async" class="members__list-item">
+        <app-member-card [member]="member"></app-member-card>
       </div>
     </section>
   </div>
