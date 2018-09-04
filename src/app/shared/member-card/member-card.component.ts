@@ -34,7 +34,7 @@ export class MemberCardComponent implements OnInit {
       case 'Logística - sponsorship':
         color = 'blue';
         break;
-      case 'Logística de ubicaciones':
+      case 'Montaje de escenario':
         color = 'lightskyblue';
         break;
       case 'Swag':
