@@ -1,8 +1,10 @@
 .videos {
   background-color: $_sky-blue;
+
   &__container {
     display: table;
     margin: 3rem auto;
+
     .video {
       margin-bottom: 1rem;
     }
@@ -12,6 +14,7 @@
     margin-top: 5rem;
     font-size: 0;
   }
+  
   .hills {
     margin-top: 5rem;
   }

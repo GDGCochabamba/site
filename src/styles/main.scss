@@ -10,16 +10,19 @@
       margin: 0 auto;
       max-width: 50em;
     }
+
     &__principal {
       .event-card__image {
         max-height: 18rem;
       }
     }
+
     &__list {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
+
     &__list-item {
       max-width: 70%;
       margin: 0 auto;
@@ -30,32 +33,39 @@
   body {
     padding-top: 70px;
   }
+
   .page__header {
     bottom: auto;
     top: 0;
   }
+
   .desktop {
     display: block;
   }
+
   .section {
     &__content {
       margin: 0 auto;
       max-width: 50em;
     }
   }
+
   .events {
     &__principal {
       .event-card__image {
         max-height: 26rem;
       }
     }
+
     &__list-item {
       max-width: 48%;
     }
+
     .section__content {
       max-width: 35em;
     }
   }
+
   .videos {
     &__list {
       display: flex;
@@ -64,6 +74,7 @@
       margin: 0 auto;
       width: 70%;
     }
+
     &__list-item {
       width: 48%;
     }
@@ -76,6 +87,7 @@
       margin: 0 auto;
       width: 70%;
     }
+
     &__list-item {
       width: 30%;
     }
@@ -87,6 +99,7 @@
       width: 50%;
     }
   }
+  
   .about-us {
     &__event-card {
       position: absolute;

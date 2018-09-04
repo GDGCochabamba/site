@@ -11,6 +11,7 @@
     color: $_black-dark;
     padding: 7px;
   }
+
   &__image {
     object-fit: cover;
     width: 96px;
@@ -19,21 +20,25 @@
     border-radius: 50%;
     border: 5px solid $_blue;
   }
+
   &__fullname {
     text-transform: initial;
     font-weight: 400;
     font-size: 1.2em;
   }
+
   &__org-teams {
     font-style: oblique;
     font-weight: 300;
     font-size: 0.8em;
   }
+
   &__button {
     margin-right: 0.5em;
     font-size: 1.2rem;
     height: 30px;
     width: 30px;
+    
     i {
       color: $_green-dark;
       line-height: 1.5em;

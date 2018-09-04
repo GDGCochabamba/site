@@ -2,7 +2,7 @@ export class GDGMember {
   image: string;
   fullname: string;
   orgTeams?: any[];
-  socialLinks: [{
+  socialLinks?: [{
     url: string,
     icon: string
   }];

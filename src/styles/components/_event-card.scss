@@ -2,15 +2,18 @@
   box-shadow: 2px 2px 17px 0px $_black-dark;
   margin: 2em 0;
   position: relative;
+
   h3,
   h4 {
     margin: 0;
   }
+
   &__image {
     font-size: 0;
     max-height: 13rem;
     overflow: hidden;
   }
+
   &__description {
     background-color: $_green-dark;
     color: white;
@@ -18,34 +21,42 @@
     padding: 1em;
     position: relative;
     max-height: 4.7em;
+
     .icon-calendar {
       font-size: 3em;
     }
+
     &--black {
       background-color: $_black-dark;
     }
   }
+
   &--size1 {
     max-width: 59rem;
   }
+
   &__data {
     margin-right: 3.5em;
     padding-left: .5rem;
     text-align: left;
   }
+
   &__title {
     text-transform: initial;
     font-weight: 400;
     font-size: 1.2em;
+
     &--light {
       font-weight: 300;
     }
   }
+
   &__date {
     font-style: oblique;
     font-weight: 300;
     font-size: 0.8em;
   }
+
   &__button {
     border-radius: 50%;
     box-shadow: 2px 4px 7px -1px $_black-dark;
@@ -59,6 +70,7 @@
     text-decoration: none;
     top: -1em;
     width: 60px;
+    
     i {
       line-height: 2.2em;
     }

@@ -5,13 +5,10 @@
     </article>
 
     <section class="videos__list">
-      <div
-        *ngFor="let video of videos | async"
-        class="videos__list-item" >
-        <app-video [video]="video"></app-video> 
+      <div *ngFor="let video of videos | async" class="videos__list-item">
+        <app-video [video]="video"></app-video>
       </div>
     </section>
   </div>
   <div class="hills"></div>
 </section>
-  
