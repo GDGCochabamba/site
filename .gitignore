@@ -12,6 +12,7 @@
 # IDEs and editors
 /.idea
 .project
+.firebase/
 .classpath
 .c9/
 *.launch
